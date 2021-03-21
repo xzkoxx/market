@@ -16,7 +16,11 @@ header {
 
 .header {
     width: 100%;
+<<<<<<< HEAD
     margin: 1% auto;
+=======
+    margin: 0% auto;
+>>>>>>> 4a9e6d83b2973287e98c89c9da6e1034e276317b
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -411,6 +415,8 @@ header {
     transition: .2s;
 }
 
+
+.bg_g {background-color : rgba(126, 193, 61, 0); transition: 1s;}
 .int2 {
     width: 80%;
     margin: 20% auto 0;
@@ -512,7 +518,7 @@ header {
 .call {
     width: 80%;
     display: flex;
-    margin: 10% auto 10%;
+    padding: 5% 2%;
     justify-content: flex-end;
     color: gray;
 }
@@ -1431,7 +1437,7 @@ td {
     .call {
         width: 80%;
         display: flex;
-        margin: 10% auto 10%;
+        padding: 5% 2%;
         justify-content: flex-end;
         color: gray;
         font-size: 10px;
